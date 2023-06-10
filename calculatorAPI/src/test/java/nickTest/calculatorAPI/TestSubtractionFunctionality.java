@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 
 @Test
- class TestSubtractionFunctionality {
+public  class TestSubtractionFunctionality {
        Calculator Cal;
        int Result;
 

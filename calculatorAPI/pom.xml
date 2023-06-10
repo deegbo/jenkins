@@ -6,7 +6,7 @@
 
   <groupId>nickTest</groupId>
   <artifactId>calculatorAPI</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>2.0</version>
 
   <name>calculatorAPI</name>
   <!-- FIXME change it to the project's website -->
@@ -24,6 +24,12 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+      <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.9.8</version>
+      <!-- scope>test</scope -->
     </dependency>
   </dependencies>
 
@@ -79,4 +85,15 @@
       </plugins>
     </pluginManagement>
   </build>
+  <!-- ADDING DISTRIBUTIONMANAGEMENT CONFIG BELO -->
+
+  <distributionManagement>
+<!-- Publish the versioned releases here -->
+<repository>
+<id>calculatorAPI</id>
+<name>calculatorAPI</name>
+<url>http://nexus.nick.io:8081/repository/JenkinsBookCalculatorAPI_Release/</url>
+</repository>
+</distributionManagement>
+
 </project>
