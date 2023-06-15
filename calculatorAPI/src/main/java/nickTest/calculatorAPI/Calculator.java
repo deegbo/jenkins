@@ -22,5 +22,10 @@ public class Calculator {
 		result = num1/num2;
 		return result;
 	}
-	
+	// Method for Percentage of a number
+	public float percent(int constant, int num1, int num2) {
+		constant= 100;
+		result = Math.round(num1/constant)*num2-num2;
+		return result;
+	}
 }

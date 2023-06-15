@@ -1,4 +1,5 @@
 package nickTest.calculatorAPI;
+
 import java.util.Scanner;
 
 public class MainClass {
@@ -12,10 +13,12 @@ public class MainClass {
 			System.out.println("Enter second number");
 			int secondNumber = scan.nextInt();
 			
+			int constant = 100;
 	                //set the values in VO
 			CalculatorVO calVO = new CalculatorVO();
 			calVO.setFirstNumber(firstNumber); 
 			calVO.setSecondNumber(secondNumber);
+			calVO.setConstant(constant);
 			
 			Calculator cal = new Calculator();
 			
@@ -31,6 +34,9 @@ public class MainClass {
 			float divResult = cal.divide(calVO.getFirstNumber(), calVO.getSecondNumber());
 			System.out.println("Division Result ="+divResult);
 
+			float percentResult = cal.percent(calVO.getConstant(), calVO.getFirstNumber(), calVO.getSecondNumber());
+			System.out.println("getConstant() ="+calVO.getConstant() );
+			System.out.println("Percentage Result ="+percentResult);
 		}
 
 }
