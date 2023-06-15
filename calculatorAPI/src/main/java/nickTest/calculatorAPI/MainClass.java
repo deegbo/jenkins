@@ -37,6 +37,10 @@ public class MainClass {
 			float percentResult = cal.percent(calVO.getConstant(), calVO.getFirstNumber(), calVO.getSecondNumber());
 			System.out.println("getConstant() ="+calVO.getConstant() );
 			System.out.println("Percentage Result ="+percentResult);
+			
+			int squares = cal.squares(firstNumber);
+			System.out.println("First Number Square result is:"+squares);
 		}
+		
 
 }

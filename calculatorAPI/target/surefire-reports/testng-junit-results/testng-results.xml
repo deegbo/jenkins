@@ -2,12 +2,12 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-15T06:02:31Z" name="Surefire suite" finished-at="2023-06-15T06:02:31Z" duration-ms="71">
+  <suite started-at="2023-06-15T08:30:47Z" name="Surefire suite" finished-at="2023-06-15T08:30:47Z" duration-ms="56">
     <groups>
     </groups>
-    <test started-at="2023-06-15T06:02:31Z" name="Surefire test" finished-at="2023-06-15T06:02:31Z" duration-ms="71">
+    <test started-at="2023-06-15T08:30:47Z" name="Surefire test" finished-at="2023-06-15T08:30:47Z" duration-ms="56">
       <class name="nickTest.calculatorAPI.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:shouldAnswerWithTrue(nickTest.calculatorAPI.AppTest)]" started-at="2023-06-15T08:02:31Z" name="shouldAnswerWithTrue" finished-at="2023-06-15T08:02:31Z" duration-ms="15" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:shouldAnswerWithTrue(nickTest.calculatorAPI.AppTest)]" started-at="2023-06-15T10:30:47Z" name="shouldAnswerWithTrue" finished-at="2023-06-15T10:30:47Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
