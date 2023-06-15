@@ -2,32 +2,32 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-15T06:02:31Z" name="Surefire suite" finished-at="2023-06-15T06:02:31Z" duration-ms="27">
+  <suite started-at="2023-06-15T08:30:46Z" name="Surefire suite" finished-at="2023-06-15T08:30:46Z" duration-ms="42">
     <groups>
     </groups>
-    <test started-at="2023-06-15T06:02:31Z" name="Surefire test" finished-at="2023-06-15T06:02:31Z" duration-ms="27">
+    <test started-at="2023-06-15T08:30:46Z" name="Surefire test" finished-at="2023-06-15T08:30:46Z" duration-ms="42">
       <class name="nickTest.calculatorAPI.TestSubtractionFunctionality">
-        <test-method is-config="true" signature="Init()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@184f6be2]" started-at="2023-06-15T08:02:31Z" name="Init" finished-at="2023-06-15T08:02:31Z" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@48503868]" started-at="2023-06-15T10:30:46Z" name="Init" finished-at="2023-06-15T10:30:46Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method is-config="true" signature="ReInitialise()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@184f6be2]" started-at="2023-06-15T08:02:31Z" name="ReInitialise" finished-at="2023-06-15T08:02:31Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="ReInitialise()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@48503868]" started-at="2023-06-15T10:30:46Z" name="ReInitialise" finished-at="2023-06-15T10:30:46Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReInitialise -->
-        <test-method signature="TestSubtractionWith1Positive1NegativeNumbers()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@184f6be2]" started-at="2023-06-15T08:02:31Z" name="TestSubtractionWith1Positive1NegativeNumbers" finished-at="2023-06-15T08:02:31Z" duration-ms="2" status="PASS">
+        <test-method signature="TestSubtractionWith1Positive1NegativeNumbers()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@48503868]" started-at="2023-06-15T10:30:46Z" name="TestSubtractionWith1Positive1NegativeNumbers" finished-at="2023-06-15T10:30:46Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSubtractionWith1Positive1NegativeNumbers -->
-        <test-method signature="TestSubtractionWithPositiveNumbers()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@184f6be2]" started-at="2023-06-15T08:02:31Z" name="TestSubtractionWithPositiveNumbers" finished-at="2023-06-15T08:02:31Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSubtractionWithPositiveNumbers -->
-        <test-method is-config="true" signature="ReInitialise()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@184f6be2]" started-at="2023-06-15T08:02:31Z" name="ReInitialise" finished-at="2023-06-15T08:02:31Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="ReInitialise()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@48503868]" started-at="2023-06-15T10:30:46Z" name="ReInitialise" finished-at="2023-06-15T10:30:46Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReInitialise -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@184f6be2]" started-at="2023-06-15T08:02:31Z" name="Teardown" finished-at="2023-06-15T08:02:31Z" duration-ms="0" status="PASS">
+        <test-method signature="TestSubtractionWithPositiveNumbers()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@48503868]" started-at="2023-06-15T10:30:46Z" name="TestSubtractionWithPositiveNumbers" finished-at="2023-06-15T10:30:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubtractionWithPositiveNumbers -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:nickTest.calculatorAPI.TestSubtractionFunctionality@48503868]" started-at="2023-06-15T10:30:46Z" name="Teardown" finished-at="2023-06-15T10:30:46Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

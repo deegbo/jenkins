@@ -22,10 +22,16 @@ public class Calculator {
 		result = num1/num2;
 		return result;
 	}
-	// Method for Percentage of a number
+	//Method for Percentage of a number
 	public float percent(int constant, int num1, int num2) {
 		constant= 100;
-		result = Math.round(num1/constant)*num2-num2;
+		result = Math.round(num1/constant)*num2;
 		return result;
 	}
+	//Method to calculate exponential
+	public int squares(int num1) {
+		result = num1*num1 ;
+		return result;
+	}
+	
 }
