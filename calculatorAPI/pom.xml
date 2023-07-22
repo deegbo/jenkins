@@ -92,7 +92,7 @@
 <repository>
 <id>calculatorAPI</id>
 <name>calculatorAPI</name>
-<url>http://nexus.nick.io:8081/repository/JenkinsBookCalculatorAPI_Release/</url>
+<url>http://nexus.vlan5.liberica.io:8081/repository/JenkinsBookCalculatorAPI_Release/</url>
 </repository>
 </distributionManagement>
 
